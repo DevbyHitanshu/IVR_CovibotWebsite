@@ -1,1 +1,6 @@
 # IVR_CovibotWebsite
+So our basic idea is to make a covid resource website using a database verified by our own covid bot using Interactive voice response which is generally used in the call center industry. IVR bot is used to call, play automated voice recording and then receive keypad inputs from the user. This greatly helps in verifying everything. The data can then be stored in the database with a verified tick and then be shown on the website. This data can be scrapped multiple times and can be verified by our bot to at last been shown on the website. With data being collected both by the website submit link and web scrapping. During this pandemic there was huge influx of covid-19 resources but limited human resource which could verify the resources. So we came up with the solution . We use the already existing IVR technology  to confirm the resources. IVR which is interactive voice response is the same technology which asks you to press 1 for English.
+
+SOFTWARE -Python, At commands , serial port connections , DTMF Input , pygame library , Html , CSS , Php , Mysql , phpmyadmin , getpass , csv, selenium.webdriver.common.keys , selenium.common.exceptions , selenium.webdriver , mysql.connector , Html Apis 
+
+Hardware side- Ardruino Uno , Connecting wires , DC buck converter or lipo battery , serial to ardruino wire , resistors ,Gsm module sim 800 l
