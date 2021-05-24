@@ -4,3 +4,11 @@ So our basic idea is to make a covid resource website using a database verified 
 SOFTWARE -Python, At commands , serial port connections , DTMF Input , pygame library , Html , CSS , Php , Mysql , phpmyadmin , getpass , csv, selenium.webdriver.common.keys , selenium.common.exceptions , selenium.webdriver , mysql.connector , Html Apis 
 
 Hardware side- Ardruino Uno , Connecting wires , DC buck converter or lipo battery , serial to ardruino wire , resistors ,Gsm module sim 800 l
+
+#Files description
+1. https://github.com/DevbyHitanshu/IVR_CovibotWebsite/blob/main/IVR%20BOT%20CODE.py - is for the bot code
+It calls the mobile numbers from the database and runs series of pre recorder voice for telling them to put in input, then it records the input and modifies the data into the database wiith verified
+2. https://github.com/DevbyHitanshu/IVR_CovibotWebsite/blob/main/Database.sql is for the database maintained
+3. https://github.com/DevbyHitanshu/IVR_CovibotWebsite/blob/main/site.php is the backend framework for calling html on a local server and mke paths for web hosting
+4. https://github.com/DevbyHitanshu/IVR_CovibotWebsite/blob/main/Web%20scapping.py is the script for filtering thousands of tweets for mobile numbers and data and entering everything into the database created for the input for the bot
+5. https://github.com/DevbyHitanshu/IVR_CovibotWebsite/blob/main/index1.text is the homepage site 
