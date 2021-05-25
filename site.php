@@ -10,7 +10,7 @@
 <body>
     <?php
 
-    $myfile = fopen("index.html", "r+") or die("Unable to open file!");
+    $myfile = fopen("Website\index.html", "r+") or die("Unable to open file!");
     echo fread($myfile,filesize("index.html"));
     fclose($myfile);
              
